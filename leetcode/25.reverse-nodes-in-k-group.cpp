@@ -44,7 +44,7 @@ public:
         }
 
         // make a LL with the vals of the vector
-        ListNode *res = new ListNode(-1);
+        ListNode *res = new ListNode();
         t = res;
         for(auto val:vec){
             ListNode *temp = new ListNode(val);  
