@@ -34,6 +34,6 @@ public:
         }
         return head;
     }
-};
+}; 
 // @lc code=end
 
